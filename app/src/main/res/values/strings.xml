@@ -29,7 +29,7 @@
     <string name="activity_desc_monet_engine">Override monet color palette</string>
     <string name="activity_title_experimental">Experimental</string>
     <string name="activity_title_changelog">Changelog</string>
-    <string name="activity_title_xposed_menu">XPosed Menu</string>
+    <string name="activity_title_xposed_menu">Xposed Menu</string>
     <string name="activity_desc_xposed_menu">LSPosed required for these options</string>
     <string name="activity_title_miscellaneous">Miscellaneous</string>
     <string name="activity_desc_miscellaneous">Miscellaneous customization</string>
@@ -84,7 +84,7 @@
     <string name="apply_monet_gradient_desc">Use system monet as gradient</string>
     <string name="color_picker_preview">Color Picker Preview</string>
     <string name="accurate_shades_title">Accurate Shades</string>
-    <string name="accurate_shades_desc">Disable this to get exact choosen colors</string>
+    <string name="accurate_shades_desc">Disable this to get exact chosen colors</string>
     <string name="primary_color">Primary Color</string>
     <string name="color_picker_title">Color Picker</string>
     <string name="secondary_color">Secondary Color</string>
@@ -187,7 +187,7 @@
     <string name="toast_error">Something went wrong</string>
     <string name="reboot_needed">Reboot your device first!</string>
     <string name="disable_everything_title">Disable Everything</string>
-    <string name="disable_everything_desc">Disable all Iconify overlays, colors, and miscellaneous changes.</string>
+    <string name="disable_everything_desc">Disable all Iconify overlays, colors, and miscellaneous changes. Disable twice for proper effect.</string>
     <string name="toast_disable_everything">Long press to disable everything</string>
     <string name="toast_disabled_everything">Everything is disabled</string>
     <string name="restart_sysui_title">Restart SystemUI</string>
@@ -449,9 +449,9 @@
     <string name="method_toggle_dark_mode">Double Toggle Dark Mode</string>
     <string name="method_restart_systemui">Restart SystemUI</string>
     <string name="method_do_nothing">Do Nothing (I will do it myself)</string>
-    <string name="list_title_xposed_settings">XPosed Settings</string>
+    <string name="list_title_xposed_settings">Xposed Settings</string>
     <string name="list_title_show_warning">Show Warning</string>
-    <string name="list_desc_show_warning">Show warning on how to re-optimize module in XPosed Menu</string>
+    <string name="list_desc_show_warning">Show warning on how to re-optimize module in Xposed Menu</string>
     <string name="list_title_force_apply_method">Force Apply Method</string>
     <string name="list_desc_force_apply_method">Method to force apply the changes in xposed menu</string>
     <string name="list_title_miscellaneous_settings">Miscellaneous Settings</string>
@@ -592,4 +592,11 @@
     <string name="lsclock_custom_color_desc">Custom color instead of primary color</string>
     <string name="lsclock_color_picker_title">Clock Color Picker</string>
     <string name="lsclock_color_picker_desc">Set color of lockscreen clock text</string>
+    <string name="tablet_landscape_title">Tablet Landscape</string>
+    <string name="tablet_landscape_desc">Also known as Better QS\nMust use Notch Bar Killer</string>
+    <string name="toast_skipped_installation">Installation skipped. Some features may not function properly.</string>
+    <string name="one_time_reboot_needed">Reboot your device!</string>
+    <string name="xposed_only_desc">You are currently in Xposed Only mode. This requires iconify to be enabled in LSPosed app. Also make sure that Iconify module is shown in Magisk manager. To get access to all features, simply re-open the app and go through the installation process!</string>
+    <string name="power_menu_transparency_title">Power Menu Transparency</string>
+    <string name="power_menu_transparency_desc">Power menu transparency for Fluid QS\nDo not use custom notification style</string>
 </resources>

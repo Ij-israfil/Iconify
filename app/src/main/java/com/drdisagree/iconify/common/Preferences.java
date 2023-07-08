@@ -26,9 +26,12 @@ public class Preferences {
     public static final String HEADER_CLOCK_CENTERED = "xposed_headerclockcentered";
     public static final String HEADER_CLOCK_LANDSCAPE_SWITCH = "xposed_headerclocklandscape";
     public static final String HEADER_CLOCK_TEXT_WHITE = "xposed_headerclocktextwhite";
-    public static final String QSPANEL_HIDE_CARRIER = "xposed_qspanelhidecarrier";
     public static final String HEADER_CLOCK_STYLE = "xposed_headerclockstyle";
+    public static final String HEADER_CLOCK_FONT_SWITCH = "xposed_headerclockfont";
+    public static final String HEADER_CLOCK_COLOR_SWITCH = "xposed_headerclockcolor";
+    public static final String HEADER_CLOCK_COLOR_CODE = "xposed_headerclockcolorcode";
     public static final String HEADER_CLOCK_FONT_TEXT_SCALING = "xposed_headerclocktextscaling";
+    public static final String QSPANEL_HIDE_CARRIER = "xposed_qspanelhidecarrier";
     public static final String LSCLOCK_SWITCH = "xposed_lockscreenclock";
     public static final String LSCLOCK_AUTOHIDE = "xposed_lockscreenclockautohide";
     public static final String LSCLOCK_STYLE = "xposed_lockscreenclockstyle";
@@ -50,6 +53,7 @@ public class Preferences {
     public static final String BLACK_QSPANEL = "xposed_blackqspanel";
     public static final String FLUID_QSPANEL = "xposed_fluidqspanel";
     public static final String FLUID_NOTIF_TRANSPARENCY = "xposed_fluidnotiftransparency";
+    public static final String FLUID_POWERMENU_TRANSPARENCY = "xposed_fluidpowermenutransparency";
     public static final String CUSTOM_BATTERY_STYLE = "xposed_custombatterystyle";
     public static final String CUSTOM_BATTERY_WIDTH = "xposed_custombatterywidth";
     public static final String CUSTOM_BATTERY_HEIGHT = "xposed_custombatteryheight";
@@ -88,7 +92,9 @@ public class Preferences {
     public static final String ON_HOME_PAGE = "onHomePage";
     public static final String COLORED_BATTERY_SWITCH = "isColoredBatteryEnabled";
     public static final String COLOR_ACCENT_PRIMARY = "colorAccentPrimary";
+    public static final String COLOR_ACCENT_PRIMARY_LIGHT = "colorAccentPrimaryLight";
     public static final String COLOR_ACCENT_SECONDARY = "colorAccentSecondary";
+    public static final String COLOR_ACCENT_SECONDARY_LIGHT = "colorAccentSecondaryLight";
     public static final String CUSTOM_PRIMARY_COLOR_SWITCH = "customPrimaryColor";
     public static final String CUSTOM_SECONDARY_COLOR_SWITCH = "customSecondaryColor";
     public static final String QS_ROW_COLUMN_SWITCH = "fabricatedqsRowColumn";
@@ -121,9 +127,7 @@ public class Preferences {
     public static final String APP_LANGUAGE = "IconifyAppLanguage";
     public static final String APP_ICON = "IconifyAppIcon";
     public static final String APP_THEME = "IconifyAppTheme";
-    public static final String USE_LIGHT_ACCENT = "useLightAccent";
     public static final String SHOW_XPOSED_WARN = "showXposedMenuWarn";
-    public static final String FORCE_APPLY_XPOSED_CHOICE = "optionForceApplyXposed";
 
     // Others
     public static final String BOOT_ID = "boot_id";
